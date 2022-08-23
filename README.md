@@ -59,7 +59,7 @@ Un repo gitlab contenant :
 - [projet portfolio](https://github.com/mohamed25100/mon-portfolio)
 - [projet  lander contact us](https://github.com/mohamed25100/projet-lander-contact-us)
 - [projet algo](https://github.com/mohamed25100/introduction-l-algorithmique)
-- [derniere version github !!!](https://github.com/mohamed25100/creation-de-notre-outils-interne-de-gestion-de-projet)
+- [projet gestion de projets](https://github.com/mohamed25100/creation-de-notre-outils-interne-de-gestion-de-projet)
 
 ## projet simplon en ligne
 - [projet  lander contact us](https://mohamed-boucherba.fr/projet-lander-contact-us)
