@@ -63,5 +63,9 @@ Un repo gitlab contenant :
 
 ## projet simplon en ligne
 - [projet  lander contact us](https://mohamed-boucherba.fr/projet-lander-contact-us)
+
+## reste a faire les dev && users
+[vas vers dossier reste-a-faire](/reste-a-faire/)
+[vas vers fichier reste-a-faire/readme](/reste-a-faire/readme.md)
 #
 &copy;Mohamed
