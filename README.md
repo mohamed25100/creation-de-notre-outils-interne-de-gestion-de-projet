@@ -52,11 +52,10 @@ Un repo gitlab contenant :
 - [Maquettes PDF](https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/file/pdf/5e994f21-08ee-4859-869a-4bfccdc5b482.pdf)
 - [LOGO](https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/image/png/9ab5cd96-16ae-488d-803d-bf63779c5c2b.png)
 
-# guide :
-- page principale: [cliquez ici](http://localhost:5500/ex.js)
-- un fichier js
+## guide :
+- page principale: [cliquez ici](http://localhost:3000/)
 
-## projet simplon
+## projets simplon
 - [projet portfolio](https://github.com/mohamed25100/mon-portfolio)
 - [projet  lander contact us](https://github.com/mohamed25100/projet-lander-contact-us)
 - [projet algo](https://github.com/mohamed25100/introduction-l-algorithmique)
