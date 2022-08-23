@@ -1,0 +1,30 @@
+@include('partials/head')
+
+<body>
+    @include('partials/navbar')
+        <main class="container">
+            <div class="bigtitle">
+                <img src="../images/Simplon_logo.png" alt="Logo" id="Logo">
+                <h1>{{ title }}</h1>
+            </div>
+            
+            <article class="bigflexy">
+                <li class="widadd"></li>
+                <div class="projetinconnu">
+                    @each(elem in title_projet)
+                        <h2 class="titleinconnu">{{ elem.title_projet}}</h2>
+                    @endeach
+                    @each(elem in content_projet)
+                        <p class="contentinconnu">{{ elem.content_projet}}</p>
+                    @endeach
+                </div>
+                <li class="widadd"></li>
+            </article>
+            <div id="textcenter" class="bigflexy">
+                <li class="widadd"></li>
+                <a href="/" class="projetinconnu"><< Retour</a>
+                <li class="widadd"></li>
+            </div>
+            
+        </main>
+@include('partials/footer')

@@ -1,0 +1,33 @@
+@include('partials/head')
+
+<body>
+    @include('partials/navbar')
+
+    <main class="container">
+        <!-- Completer la page Index -->
+        <div class="bigtitle">
+            <img src="../images/Simplon_logo.png" alt="Logo" id="Logo">
+            <h1>{{ title }}</h1>
+        </div>
+        <li class="flex"><a class="wid70"></a><a href="/projet-create" id="hoverdea" class="wid30">Ajouter un projet</a></li>
+        <section id ="projet">
+            <article>
+                <ul>
+                    <li class="flex"><a href="/" class="borderT">Projet</a><div id="bordera" class="borderR"></div></li>
+                    @each(elem in big)
+                    <li id="colory" class="flex">
+                        <div class="borderL">{{ elem.title_projet}}</div>
+                        <div class="borderR">
+                            <a href="/projet/{{elem.id}}">Voir</a> | 
+                            <a href="/projet-update/{{elem.id}}">Modifier</a> | 
+                            <a href="/projet-delete/{{ elem.id }}">Supprimer</a>
+                        </div>
+                    </li>
+                    @endeach
+                </ul>
+            </article>
+    </section>
+    </main>
+
+@include('partials/footer')
+

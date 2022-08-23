@@ -1,0 +1,34 @@
+@include('partials/head')
+
+<body>
+    @include('partials/navbar')
+
+    <main class="container">
+        <div class="bigtitle">
+            <img src="../images/Simplon_logo.png" alt="Logo" id="Logo">
+            <h1>Gestion de projets</h1>
+        </div>
+
+        <article class="bigflexy">
+            <li class="widadd"></li>
+            <li class="flexy">
+                <form action="/projet-create" method="POST">
+                    <label class="labC" for="title">Nom du projet</label><br>
+                    <input class="inputT" type="text" id="title" name="title"><br>
+    
+                    <label class="labC" for="content">Description</label><br>
+                    <textarea class="inputD" type="text" name="content"></textarea><br>
+    
+                    <div class="bigflexy">
+                        <span class="createwid"></span>
+                        <input class="wid12" type="submit" value="Enregistrer">
+                        <span class="createwid"></span>
+                    </div>
+                </form>
+            </li>
+            <li class="widadd"></li>
+        </article>
+        <div class="bigflexy"><li class="widadd2"></li><a href="/" class="createretour"><< Retour</a><li class="widadd2"></li></div>
+    </main>
+
+@include('partials/footer')
